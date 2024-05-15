@@ -38,3 +38,6 @@ elastic-config:
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
   is-repository: true
+spring:
+  main:
+    allow-bean-definition-overriding: true

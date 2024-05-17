@@ -1,0 +1,9 @@
+server:
+  port: 8183
+elastic-query-config:
+  text-field: text
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://rlaalstjr99.ddns.net:9200
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 30000

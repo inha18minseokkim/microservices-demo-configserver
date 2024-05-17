@@ -34,7 +34,7 @@ kafka-consumer-config:
   poll-timeout-ms: 150
 elastic-config:
   index-name: twitter-index
-  connection-url: http://rlaalstjr99.ddns.net:9200
+  connection-url: rlaalstjr99.ddns.net:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
   is-repository: true

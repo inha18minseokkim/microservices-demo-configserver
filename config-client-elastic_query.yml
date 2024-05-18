@@ -2,7 +2,7 @@ elastic-query-service:
   version: v1
 logging:
   level:
-    root: TRACE
+    root: DEBUG
 server:
   port: 8183
   servlet:

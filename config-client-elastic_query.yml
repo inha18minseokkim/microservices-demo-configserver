@@ -2,7 +2,7 @@ elastic-query-service:
   version: v1
 logging:
   level:
-    root: DEBUG
+    root: INFO
 server:
   port: 8183
   servlet:
@@ -14,8 +14,8 @@ elastic-config:
   connection-url: rlaalstjr99.ddns.net:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
-user-config:
-  username: test
-  #password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
-  password: asdf
-  roles: USER
+#user-config:
+#  username: test
+#  #password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
+#  password: asdf
+#  roles: USER

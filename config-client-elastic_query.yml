@@ -12,3 +12,7 @@ elastic-config:
   connection-url: http://rlaalstjr99.ddns.net:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
+user-config:
+  username: test
+  password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
+  roles: USER

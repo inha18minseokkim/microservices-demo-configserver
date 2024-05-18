@@ -16,5 +16,6 @@ elastic-config:
   socket-timeout-ms: 30000
 user-config:
   username: test
-  password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
+  #password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
+  password: asdf
   roles: USER

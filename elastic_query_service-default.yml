@@ -19,3 +19,10 @@ elastic-config:
 #  #password: ENC(xcMyooKqAgYyOlbucvUcWIFTUieHSk/8fRYjBErt7TNFLJtf0a2quV4oejGIRqN1)
 #  password: asdf
 #  roles: USER
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+#security:
+#  paths-to-ignore: /api-docs

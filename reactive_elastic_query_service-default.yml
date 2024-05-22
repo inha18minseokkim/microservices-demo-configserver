@@ -27,6 +27,9 @@ spring:
     base-path: /reactive-elastic-query-service
   codec:
     max-in-memory-size: 25MB
+  elasticsearch:
+    uris:
+      rlaalstjr99.ddns.net:9200
   data:
     elasticsearch:
       client:

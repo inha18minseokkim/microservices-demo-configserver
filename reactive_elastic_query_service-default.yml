@@ -23,6 +23,8 @@ kafka-config:
 server:
   port: 8183
 spring:
+  main:
+    web-application-type: reactive
   webflux:
     base-path: /reactive-elastic-query-service
   codec:

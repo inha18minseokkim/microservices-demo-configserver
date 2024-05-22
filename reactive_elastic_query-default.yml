@@ -1,0 +1,31 @@
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://rlaalstjr99.ddns.net:9200
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 30000
+elastic-query-config:
+  text-field: text
+kafka-config:
+  topic-name: twitter-analytics-topic-2
+  topic-names-to-create:
+    - twitter-analytics-topic-2
+  num-partitions: 3
+  replication-factor: 3
+  bootstrap-servers: rlaalstjr99.ddns.net:19092,rlaalstjr99.ddns.net:29092,rlaalstjr99.ddns.net:39092
+  schema-registry-servers: http://rlaalstjr99.ddns.net:8081
+  sleep-time-ms: 1000
+  max-interval-ms: 10000
+  retry-multiplier: 2.0
+  admin-retry-max: 1
+server:
+  port: 8183
+spring:
+  webflux:
+    base-path: /reactive-elastic-query-service
+  codec:
+    max-in-memory-size: 25MB
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          max-in-memory-size: 25MB

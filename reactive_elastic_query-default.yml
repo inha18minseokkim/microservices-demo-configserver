@@ -15,7 +15,7 @@ kafka-config:
   num-partitions: 3
   replication-factor: 3
   bootstrap-servers: rlaalstjr99.ddns.net:19092,rlaalstjr99.ddns.net:29092,rlaalstjr99.ddns.net:39092
-  schema-registry-servers: http://rlaalstjr99.ddns.net:8081
+  schema-registry-servers: http://rlaalstjr99.ddns.net:8080
   sleep-time-ms: 1000
   max-interval-ms: 10000
   retry-multiplier: 2.0

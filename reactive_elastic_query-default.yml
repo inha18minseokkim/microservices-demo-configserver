@@ -1,3 +1,6 @@
+elastic-query-service:
+  backPressure-delay-ms: 500
+  
 elastic-config:
   index-name: twitter-index
   connection-url: http://rlaalstjr99.ddns.net:9200

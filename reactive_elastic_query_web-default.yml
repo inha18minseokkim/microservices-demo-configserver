@@ -10,7 +10,7 @@ elastic-query-web-client:
   query-by-text:
     method: POST
     uri: "/get-doc-by-text"
-    accept: ${elastic-queryt-web-client.webclient.accept-type}
+    accept: ${elastic-query-web-client.webclient.accept-type}
 server:
   port: 8184
   

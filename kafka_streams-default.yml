@@ -17,8 +17,11 @@ spring:
   cloud:
     stream:
       kafka:
-        binder:
-          replicationFactor: 2
+        streams:
+          binder:
+            configuration:
+              replication:
+                factor: 3
 springdoc:
   api-docs:
     path: /api-docs

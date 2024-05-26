@@ -13,15 +13,15 @@ server:
 #        jwt:
 #          issuer-uri: http://localhost:9091/auth/realms/microservices-realm
 #          jwk-set-uri: http://localhost:9091/auth/realms/microservices-realm/protocol/openid-connect/certs
-spring:
-  cloud:
-    stream:
-      kafka:
-        streams:
-          binder:
-            configuration:
-              replication:
-                factor: 3
+#spring:
+#  cloud:
+#    stream:
+#      kafka:
+#        streams:
+#          binder:
+#            configuration:
+#              replication:
+#                factor: 3
 springdoc:
   api-docs:
     path: /api-docs
@@ -39,7 +39,8 @@ retry-config:
   sleep-time-ms: 2000
 
 kafka-config:
-  bootstrap-servers: rlaalstjr99.ddns.net:19092, rlaalstjr99.ddns.net:29092, rlaalstjr99.ddns.net:39092
+  bootstrap-servers: rlaalstjr99.ddns.net:29092
+  #bootstrap-servers: rlaalstjr99.ddns.net:19092, rlaalstjr99.ddns.net:29092, rlaalstjr99.ddns.net:39092
   schema-registry-url-key: schema.registry.url
   schema-registry-url: http://rlaalstjr99.ddns.net:8080
   topic-names-to-create:

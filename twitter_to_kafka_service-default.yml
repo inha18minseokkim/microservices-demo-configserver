@@ -26,7 +26,8 @@ retry-config:
   maxAttempts: 3
   sleep-time-ms: 2000
 kafka-config:
-  bootstrap-servers: rlaalstjr99.ddns.net:19092, rlaalstjr99.ddns.net:29092, rlaalstjr99.ddns.net:39092
+  #bootstrap-servers: rlaalstjr99.ddns.net:19092, rlaalstjr99.ddns.net:29092, rlaalstjr99.ddns.net:39092
+  bootstrap-servers: rlaalstjr99.ddns.net:29092
   schema-registry-url-key: schema.registry.url
   schema-registry-url: http://rlaalstjr99.ddns.net:8080
   topic-name: twitter-topic

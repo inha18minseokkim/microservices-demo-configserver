@@ -23,10 +23,10 @@ spring:
   datasource:
     url: jdbc:postgresql://rlaalstjr99.ddns.net:5432/postgres?currentSchema=analytics&binaryTransfer=true&reWriteBatchedInserts=true
     username: postgres
-    password: admin
     driver-class-name: org.postgresql.Driver
     platform: postgres
-
+  main:
+    allow-bean-definition-overriding: true
 kafka-config:
   bootstrap-servers: rlaalstjr99.ddns.net:29092
   schema-registry-url-key: schema.registry.url
